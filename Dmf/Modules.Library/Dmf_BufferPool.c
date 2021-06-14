@@ -2173,6 +2173,7 @@ Return Value:
     //
     if (moduleContext->BufferPoolMode == BufferPool_Mode_Source)
     {
+        /*
         // Clear the Client Buffer.
         //
         RtlZeroMemory(ClientBuffer,
@@ -2186,6 +2187,7 @@ Return Value:
             RtlZeroMemory(bufferPoolEntry->ClientBufferContext,
                           bufferPoolEntry->BufferContextSize);
         }
+        */
         DmfAssert(NULL == bufferPoolEntry->TimerExpirationCallback);
         DmfAssert(0 == bufferPoolEntry->TimerExpirationAbsoluteTime100ns);
         DmfAssert(0 == bufferPoolEntry->TimerExpirationMilliseconds);
