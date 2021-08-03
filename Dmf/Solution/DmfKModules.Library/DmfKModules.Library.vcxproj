@@ -314,6 +314,7 @@
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <WppFileExtensions>.c.C.cpp.CPP.h.H</WppFileExtensions>
       <WppRecorderEnabled>true</WppRecorderEnabled>
+      <UseFullPaths>false</UseFullPaths>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -343,6 +344,7 @@
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <WppFileExtensions>.c.C.cpp.CPP.h.H</WppFileExtensions>
       <WppRecorderEnabled>true</WppRecorderEnabled>
+      <UseFullPaths>false</UseFullPaths>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -372,6 +374,7 @@
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <WppFileExtensions>.c.C.cpp.CPP.h.H</WppFileExtensions>
       <WppRecorderEnabled>true</WppRecorderEnabled>
+      <UseFullPaths>false</UseFullPaths>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
